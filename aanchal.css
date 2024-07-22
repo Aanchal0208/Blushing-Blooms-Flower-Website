@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Pacifico;
+}
+.section1{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.section1 h1{
+    float: left;
+    font-size: 40px;
+}
+.section1 h1:hover{
+    color: green;
+}
+.section1 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section1 ul li{
+    padding: 40px;
+}
+.section1 ul li:hover{
+    color: green;
+}
+.section1 button{
+    background-color: greenyellow;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+
+}
+.section1 button:hover{
+    background-color: rgb(5, 245, 5);
+}
+.section2 img{
+    height: 450px;
+    width: 100%;
+}
+.section2 h2{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+.section2 p{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.section2 button{
+    position: absolute;
+    top: 58%;
+    left: 43%;
+    border-radius: 20px;
+    background-color: greenyellow;
+    color:black;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer; 
+    height: 40px;
+    width: 200px;
+}
+.section2 button:hover{
+    background-color: rgb(6, 255, 6);
+}
+.section3{
+    height: 200px;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.section3 h2{
+    text-align: center;
+    margin: 15px;
+}
+.section3 p{
+    text-align: center;
+    margin: 10px;
+}
+.section3 button{
+    position: absolute;
+    left: 44%;
+    background-color: greenyellow;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.section3 button:hover{
+    background-color: green;
+}
+.section4 img{
+    height: 630px;
+    width: 100%;
+}
+.section4 .div1 h2{
+    position: absolute;
+    top: 130%;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 45%;
+}
+.section4 .div2 p{
+    position: absolute;
+    top: 140%;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 20px;
+
+}
+
+.section4 .div3{
+    position: absolute;
+    top: 150%;
+    width: 350px;;
+    height: 425px;
+    width: 320px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.section4 .div3 img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+.section4 .div3 h2{
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    text-align: center;
+}
+.section4 .div3 p{
+    position: absolute;
+    top: 60%;
+    margin-left: 30px;
+    text-align: center;
+}
+.section4 .div3:hover{
+    transform: translate(0px,-8px);
+}
+.section4 .div4{
+    position: absolute;
+    top: 150%;
+    left: 30%;
+    width: 350px;;
+    height: 425px;
+    width: 320px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.section4 .div4 img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+.section4 .div4 h2{
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    text-align: center;
+}
+.section4 .div4 p{
+    position: absolute;
+    top: 60%;
+    margin-left: 30px;
+    text-align: center;
+}
+.section4 .div4:hover{
+    transform: translate(0px,-8px);
+}
+.section4 .div5{
+    position: absolute;
+    top: 150%;
+    left: 60%;
+    width: 350px;;
+    height: 425px;
+    width: 320px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.section4 .div5 img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+.section4 .div5 h2{
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    text-align: center;
+}
+.section4 .div5 p{
+    position: absolute;
+    top: 60%;
+    margin-left: 30px;
+    text-align: center;
+}
+.section4 .div5:hover{
+    transform: translate(0px,-8px);
+}
+.section4 button{
+    position: absolute;
+    top: 230%;
+    left: 40%;
+    border-radius: 20px;
+    background-color: greenyellow;
+    color:black;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer; 
+    height: 40px;
+    width: 200px;
+}
+.section4 button:hover{
+    background-color: green;
+}
+.section5 .s1 img{
+    width: 60%;
+    height: 500px;
+    position: absolute;
+    top: 240%;
+    border-radius: 20px;
+}
+.section5 .s2 img{
+    width: 40%;
+    height: 500px;
+    position: absolute;
+    top: 240%;
+    left: 60%;
+    border-radius: 20px;
+}
+.section5 .s3 h2{
+    position: absolute;
+    top: 260%;
+    left: 26%;
+}
+.section5 .s3 p{
+    position: absolute;
+    top: 270%;
+    left: 26%;
+    text-align: center;
+    width: 350px;
+}
+.section5 .s3 button{
+    position: absolute;
+    top:310%;
+    left: 35%;
+    background-color: greenyellow;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
+.section5 .s3 button:hover{
+    background-color: green;
+}
+.section6{
+    margin: 30px;
+}
+.section6 h1{
+    color: black;
+    position: absolute;
+    top: 340%;
+    left: 33%;
+}
+.section6 p{
+    position: absolute;
+    top: 350%;
+    left: 34%;
+}
+.section6 .a1 select{
+    position: absolute;
+    top: 365%;
+    left: 10%;
+    width: 38%;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(249, 205, 212);
+}
+.section6 .a2 select{
+    position: absolute;
+    top: 365%;
+    left: 50%;
+    width: 38%;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(249, 205, 212);
+}
+.section6 .a3 select{
+    position: absolute;
+    top: 380%;
+    left: 10%;
+    width: 38%;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(249, 205, 212);
+}
+.section6 .a4 select{
+    position: absolute;
+    top: 380%;
+    left: 50%;
+    width: 38%;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(249, 205, 212);
+}
+.section6 .a5 select{
+    position: absolute;
+    top: 395%;
+    left: 10%;
+    width: 38%;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(249, 205, 212);
+}
+.section6 .a6 select{
+    position: absolute;
+    top: 395%;
+    left: 50%;
+    width: 38%;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(249, 205, 212);
+}
+.section6 .a2 select:hover{
+    background-color: rgb(253, 116, 139);
+}
+.section6 .a3 select:hover{
+    background-color: rgb(253, 116, 139);
+}
+.section6 .a4 select:hover{
+    background-color: rgb(253, 116, 139);
+}
+.section6 .a5 select:hover{
+    background-color: rgb(253, 116, 139);
+}
+.section6 .a6 select:hover{
+    background-color: rgb(253, 116, 139);
+}
+.section6 .a1 select:hover{
+    background-color: rgb(253, 116, 139);
+}
+.section7 img{
+    position: absolute;
+    top: 410%;
+    width: 100%;
+    height: 400px;
+}
+.section8 img{
+    position: absolute;
+    top: 470%;
+    width: 100%;
+    height: 300px;
+}
+.section8 .a1 h1{
+    position: absolute;
+    top: 475%;
+    left: 38%;
+}
+.section8 .a1 p{
+    position: absolute;
+    top: 485%;
+    left: 37%;
+}
+.section8 .a2 form{
+    position: absolute;
+    top: 495%;
+    left: 30%;
+}
+.section8 .a2 form input{
+    width: 400px;
+    height: 35px;
+    text-align: center;
+}
+.section8 .a2 form button{
+    width: 150px;
+    height: 38px;
+    position: absolute;
+    left: 100%;
+    background-color: rgb(250, 79, 79);
+    border: 30px;
+    cursor: pointer;
+}
+.section8 .a2 form button:hover{
+    background-color: rgb(245, 21, 21);
+}
+.section8 .a3 h1{
+    position: absolute;
+    top: 510%;
+    left: 10%;
+    color: green;
+}
+.section8 .a3 h1:hover{
+    color: rgb(5, 88, 5);
+}
+.section8 .a3 .s1{
+    position: absolute;
+    top:510%;
+    left: 80%;
+}
+.section8 .a3 .s1 i{
+    width: 50px;
+    height: 50px;
+}
+.section8 .a3 .s1 i:hover{
+    color: green;
+}
+.section10 h2{
+    position: absolute;
+    top: 525%;
+    left: 20%;
+}
+.section10 p{
+    position: absolute;
+    top: 526%;
+    left: 45%;
+}
+.section10 h4{
+    position: absolute;
+    top: 526%;
+    left: 80%;
+}
+
+
